@@ -1,0 +1,85 @@
+
+body {
+    background-image: linear-gradient(to right, #044236, #359381);
+    height: 100vh;
+    margin: 0;
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 20%;
+}
+
+.flex {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    padding: 50px;
+}
+  
+.easyornot-radio-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.input .easyornot-radio-btns label {
+  margin-right: 20px; 
+}
+
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.rating-table th, .rating-table td {
+  padding: 10px; 
+  text-align: center; 
+}
+
+.error {
+    color: red;
+}
+
+#previewButton,
+#editButton,
+#submitButton {
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#previewButton:hover,
+#editButton:hover,
+#submitButton:hover {
+    background-color: #45a049; 
+}
+
+#previewButton {
+    background-color: #003329; 
+}
+
+#editButton {
+    background-color: #f44336; 
+}
+
+#submitButton {
+    background-color: #359381; 
+}

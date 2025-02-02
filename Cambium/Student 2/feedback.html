@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FEEDBACK FORM</title>
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="feedback.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <div class="navigationBar">
+      <header>
+        <a href="home.html">
+          <h2 class="logo">Cambium</h2>
+        </a>
+
+        <nav class="navigation">
+          <ul>
+            <li><a href="../Student 2/home.html">HOME</a></li>
+            <li><a href="../Student 4/Gallery/gallery.html">GALLERY</a></li>
+            <li><a href="../Student 1/Shop/shop.html">SHOP</a></li>
+            <li><a href="../Student 3/profile.html">MY PROFILE</a></li>
+            <li>
+              <a href="feedback.html" class="active">FEEDBACK</a>
+            </li>
+            <li><a href="../Student 4/Site map/sitemap.html">SITEMAP</a></li>
+            <li><a href="../Student 3/team.html">OUR TEAM</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <h3>FEEDBACK FORM</h3>
+    <div class="flex">
+      <br />
+      <form id="form" name="feedbackform" method="post">
+        <input
+          type="hidden"
+          name="access_key"
+          value="d7193634-c453-45e2-89d6-f789a948a4f7" />
+        <div class="description">
+          Dear Customer,<br /><br />
+          Thank You for Visiting Cambium<br /><br />
+          Your visit is a motivation for us.<br />
+          Kindly help us to improve our service.<br />
+          <br /><br />
+        </div>
+
+        <div class="input">
+          <label for="name">YOUR NAME : </label>
+          <input id="name" name="name" type="text" required />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input">
+          <label for="email">EMAIL : </label>
+          <input id="email" name="email" type="email" required />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input">
+          <label for="tele">TELEPHONE NUMBER : </label>
+          <input id="tele" name="tele" type="tel" required />
+          <div class="error"></div>
+        </div>
+        <br />
+
+        <div class="input">
+          <label for="date">DATE : </label>
+          <input id="date" name="date" type="date" required />
+          <div class="error"></div>
+        </div>
+        <br />
+        <br />
+
+        <div class="input">
+          <label id="easyornot"
+            >Was this Website Informative and easy to Navigate through ?</label
+          >
+          <div class="easyornot-radio-btns">
+            <input
+              id="easyornot-yes"
+              name="easyornot"
+              type="radio"
+              value="Yes" />
+            <label for="easyornot-yes">Yes</label>
+            <input id="easyornot-no" name="easyornot" type="radio" value="No" />
+            <label for="easyornot-no">No</label>
+          </div>
+        </div>
+        <br />
+
+        <div class="input">
+          <label for="for-improve">
+            If "No", Suggest any Improvements for the Future :
+          </label>
+          <textarea id="for-improve" name="for_improve"></textarea>
+        </div>
+        <br />
+
+        <div class="description">
+          HOW SATISFIED ARE YOU WITH EACH OF THE FOLLOWING ASPECTS OF OUR
+          SERVICES?<br />
+          (RANK BY CHOOSING THE NUMBER THAT BEST DESCRIBES YOUR SATISFACTION
+          LEVEL)
+        </div>
+
+        <table class="rating-table">
+          <tr>
+            <th></th>
+            <th>NOT SATISFIED</th>
+            <th>POOR</th>
+            <th>FAIR</th>
+            <th>GOOD</th>
+            <th>EXCELLENT</th>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="input">
+                <label for="content">CONTENT : </label>
+                <input id="content" style="display: none" />
+                <div class="error"></div>
+              </div>
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="content" value="not_satisfied" />
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="content" value="poor" />
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="content" value="fair" />
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="content" value="good" />
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="content" value="excellent" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="input">
+                <label for="webnavi">WEBSITE NAVIGATION : </label>
+                <input id="webnavi" style="display: none" />
+                <div class="error"></div>
+              </div>
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="webnavi" value="not_satisfied" />
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="webnavi" value="poor" />
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="webnavi" value="fair" />
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="webnavi" value="good" />
+            </td>
+            <td class="radio-btns">
+              <input type="radio" name="webnavi" value="excellent" />
+            </td>
+          </tr>
+        </table>
+        <br /><br />
+
+        <br />
+        <div class="input">
+          <label for="recieve-updates"
+            >WOULD YOU LIKE TO RECEIVE UPDATES ABOUT THE WEBSITE OR EARTH
+            ?</label
+          >
+          <select id="recieve-updates" name="recieve-updates">
+            <option value="No">No</option>
+            <option value="Yes - Via Email">Yes - Via Email</option>
+            <option value="Yes - Via SMS">Yes - Via SMS</option>
+          </select>
+          <br /><br />
+        </div>
+        <br />
+
+        <div class="input">
+          <label for="other-comments"
+            >ANY OTHER COMMENTS, REQUESTS OR SUGGESTIONS :
+          </label>
+          <textarea id="other-comments"></textarea>
+        </div>
+        <br />
+
+        <button type="button" id="previewButton">Preview</button>
+        <button type="button" id="editButton" style="display: none">
+          Edit
+        </button>
+        <button type="submit" id="submitButton" style="display: none">
+          Submit
+        </button>
+      </form>
+      <br /><br />
+
+      <div id="preview" style="display: none">
+        <h2>Preview</h2>
+        <p id="previewName"></p>
+        <p id="previewEmail"></p>
+        <p id="previewtel"></p>
+        <p id="previewdate"></p>
+        <p id="previeweasyornot"></p>
+        <p id="previewcontent"></p>
+        <p id="previewwebnavi"></p>
+        <p id="previewrecieve_updates"></p>
+      </div>
+    </div>
+
+    <div class="footerSection">
+      <footer>
+        <p>
+          <a href="PageEditor-ThinukaLehan.html" target="_blank"
+            >Page Editor - Thinuka Lehan</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="feedback.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.page_editor {
+    text-align: center; /* Center-align the text content */
+}
+
+.page_editor hr {
+    border: none; /* Remove the default border */
+    height: 2px; 
+    background-color: palevioletred; /* Change the background color */
+    margin: 20px 0; 
+}
+
+.page_editor h1 {
+    margin-top: 20px; /* Add some top margin for spacing */
+    background-color: pink;
+}
+
+.body {
+    background-color: pink;
+}
+
+/* Style the links  */
+.page_editor a {
+    display: inline-block; 
+    margin-bottom: 10px;
+    padding: 5px 10px; 
+    text-decoration: none; /* Remove underline */
+    color: #359381; /* Set default text color */
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Change background color when hovering */
+.page_editor a:hover {
+    background-color: #359381; 
+    color: #fff; 
+}

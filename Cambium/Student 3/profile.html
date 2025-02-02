@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="styles1.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <div class="navigationBar">
+      <header>
+        <h2 class="logo">Cambium</h2>
+        <nav class="navigation">
+          <ul>
+            <li><a href="../Student 2/home.html">HOME</a></li>
+            <li><a href="../Student 4/Gallery/gallery.html">GALLERY</a></li>
+            <li><a href="../Student 1/Shop/shop.html">SHOP</a></li>
+            <li><a href="profile.html" class="active">MY PROFILE</a></li>
+            <li><a href="../Student 2/feedback.html">FEEDBACK</a></li>
+            <li><a href="../Student 4/Site map/sitemap.html">SITEMAP</a></li>
+            <li><a href="../Student 3/team.html">OUR TEAM</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <h1>User Profile</h1>
+    <div id="promptDisplayArea"></div>
+    <div id="progressIndicator">
+      <label for="profileProgress">Profile completion:</label>
+      <input
+        type="range"
+        id="profileProgress"
+        name="profileProgress"
+        value="0"
+        min="0"
+        max="100"
+        step="1"
+        disabled />
+      <span id="progressPercentage">0%</span>
+    </div>
+    <div id="feedbackBox"></div>
+    <div id="navigationButtons">
+      <button id="previousButton" style="display: none">Previous</button>
+      <button id="nextButton">Next</button>
+      <button id="skipButton">Skip</button>
+    </div>
+    <div id="profileOutput">
+      <h3>Profile Output:</h3>
+    </div>
+
+    <script src="javascript.js"></script>
+    <div class="footerSection">
+      <footer>
+        <p><a href="editor.html" target="_blank">Page Editor - Your Name</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

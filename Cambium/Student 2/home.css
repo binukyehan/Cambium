@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+} 
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.HomePage {
+    position: relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100% ;
+    min-height: 100vh;
+    margin-top: 0%;
+}
+
+#text {
+    position: absolute;
+    font-family:  "Satisfy", cursive;
+    font-size: 10em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(3, 3, 3, 0.6);
+}
+
+.HomePage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    
+}
+
+.Page1 {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+
+
+.our_mission {
+    position: absolute;
+    margin: 0;
+    font-size: 60px;
+    color: #359381;
+    padding: 5%;
+
+}
+
+.our_mission_content {
+    margin-left: 50%;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(3px);
+    padding: 6%;
+    box-sizing: border-box;
+    overflow-y: auto; 
+}
+
+.Page p {
+    font-size: 3px;
+    color: #000000;
+    text-align: justify;
+}
+
+
+.gotopbtn {
+    z-index: 999;
+    left: 95%;
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 40px;
+    background-color: #359381;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('topArrow.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    transition: background-color 0.3s ease;
+    text-decoration: none; 
+}
+
+.gotopbtn:hover {
+    background-color: #003329;
+}

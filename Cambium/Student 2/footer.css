@@ -1,0 +1,15 @@
+
+.footerSection {
+    background-image: linear-gradient(to top, #003329, transparent);
+    width: 100%;
+    max-height: max-content;
+}
+
+.footerSection p {
+    margin-left: 75%;
+    padding: 3.5%;
+}
+
+.footerSection a {
+    color: rgb(255, 255, 255);
+}

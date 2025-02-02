@@ -1,0 +1,55 @@
+
+.imag {
+    background-image: url('Conservation of the environment- student3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set text color to contrast with the background */
+    padding: 10px 10px -5px 10px; /* Add padding to the container */
+}
+
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    margin-bottom: 10px; /* Add some space between the paragraph and the list */
+}
+
+#navilist {
+    text-align: center; /* Center align the links */
+    margin-bottom: 50px; /* Add space between the links and the introduction */
+}
+
+#navilist li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+h1 {
+    text-align: left;
+    margin-top: 150px;
+    background-color: black; /* Apply background color only to h1 */
+    display: inline-block; /* Set display to inline-block */
+    padding: 10px; /* Add padding */
+}   
+h2, h3{
+    text-align: center;
+}
+
+
+p
+/* Style for links within the content page */
+#navilist a {
+    color: black; /* Change link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Change background color when hovering */
+#navilist a:hover {
+    background-color: lightblue; /* Change background color */
+    color: white; /* Change text color */
+}
+
+.middle-paragraph {
+    text-align: center;
+    margin-bottom: 70px;
+}

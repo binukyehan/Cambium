@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+
+.navigationBar header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 86.9%;
+  height: 6%;
+  padding: 30px 100px 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 100;
+  background-color: rgba(238, 232, 232, 0.8);
+  backdrop-filter: blur(3px);
+  border-bottom: 1.5px solid #379685;
+  box-shadow: 0 6px 12px rgb(101, 121, 105);
+  border-radius: 0 0 50px 50px;
+}
+
+.navigationBar .logo {
+  font-size: 3em;
+  color: #379685;
+  pointer-events: none;
+  font-family: "Satisfy", cursive;
+  padding-right: 18%;
+  margin: 0;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #359381;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  background: #359381;
+  color: #fff;
+}
