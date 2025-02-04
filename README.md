@@ -1,4 +1,4 @@
-#Cambium
+# Cambium
 
 ## Overview
 This project is a collaborative web-based platform designed to provide an engaging user experience through dynamic animations, smooth transitions, and interactive elements. It includes a splash screen, an e-commerce shop, and an informative content page.
